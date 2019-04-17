@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Layout.css"/>
+<script type="text/javascript" src="Tabs.js"></script> 
+<script src="jquery.min.js" type="application/javascript"></script>
+    <script>
+        $('#range').change(function(){
+        var span = $('#value');
+        span.html(this.value);
+        });
+        
+        var text = $(this).data("tooltip");
+    </script>
+</head>
+<body>
+    
+    <a href="http://sudo-code.com"> < Go back to Sudo-Code.com
+        </a>
+
+    <div class="centre">
+        <h3>Project Calendar</h3>
+    </div>
+    <div style="height:5%;"></div>
+    
+    <div class="logdiv">
+        <div style="height:5%;"></div>
+        <div class="cen"><p1>Login</p1></div><br>
+        <div style="height:10%;"></div>
+        <div class="cen"><input type="text" name="username" placeholder="Username" id="sbox"></div>
+        <div style="height:4%;"></div>
+        <div class="cen"><input type="password" name = "password" placeholder="Password" id="sbox" /></div>
+        <div class="cen">
+            <a data-tooltip="Login using your Sudo-Code forums account" class="tooltip1">
+                <img class="le" src="res/quest.png" alt="question" style="height:10%;">
+            </a>
+        </div>
+        <div style="height:20%;"></div>
+        <div class="cen"><input id="submit3" type="submit" value="Play" /></div>
+        <div class="cen1">
+        <a href="#" data-tooltip="Learn how to play Project Calendar!" class="tooltip1">Tutorial</a>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+                        
